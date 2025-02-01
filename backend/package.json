@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx ./src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/archiver": "^6.0.3",
+    "@types/vcf": "^2.0.7",
+    "archiver": "^7.0.1",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5",
+    "vcard": "^0.1.0",
+    "vcard-json": "^0.5.2",
+    "vcf": "^2.1.2",
+    "zod": "^3.24.1"
+  }
+}
