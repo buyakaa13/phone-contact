@@ -3,9 +3,17 @@ import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar";
 import {Mail, Phone, Ellipsis, Trash2, Pencil} from 'lucide-react';
 import {DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuTrigger,} from "@/components/ui/dropdown-menu";
   
-function CardComponent(){
+type CardComponentProps = {
+    data: {
+      email: string;
+      phone: string;
+    };
+  };
+  
+
+const CardComponent: React.FC<CardComponentProps> = ({data}) => {
     return(
-            <Card className="w-[300px] border border-gray-200 shadow-md text-gray-600 bg-white">
+            <Card className="w-[280px] border border-gray-200 shadow-md text-gray-600 bg-white mb-3">
                 <CardHeader>
                     <div className="grid grid-cols-4 pb-3 border-b border-gray-200">
                         <div>
@@ -15,7 +23,7 @@ function CardComponent(){
                             </Avatar>
                         </div>
                         <div className='col-span-2 content-center justify-items-start'>
-                            <CardTitle>John Doe</CardTitle>
+                            <CardTitle>{name}</CardTitle>
                         </div>
                         <div className='content-center justify-items-end'>
                         <DropdownMenu>
