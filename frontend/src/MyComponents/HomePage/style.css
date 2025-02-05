@@ -3,6 +3,7 @@
   grid-column-gap: 5px;
   grid-template-areas:
     "header . . "
+    ". . download"
     "add . search"
     "narrow-card narrow-card narrow-card"
     "panel panel panel ";
@@ -30,4 +31,33 @@
 
 .bookmarkPanel {
   grid-area: bookmark;
+}
+
+.downloadBtn {
+  grid-area: download;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "add"
+      "search"
+      "download"
+      "narrow-card"
+      "panel";
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "add"
+      "search"
+      "download"
+      "narrow-card"
+      "panel";
+    grid-row-gap: 5px;
+  }
 }

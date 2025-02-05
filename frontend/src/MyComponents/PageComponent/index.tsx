@@ -1,6 +1,10 @@
 import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext,PaginationPrevious } from "@/components/ui/pagination"
-  
-  export function PageComponent() {
+
+type PageComponent = {
+  setSearch: (query:string) => void
+}
+
+  const PageComponent: React.FC = () => {
     return (
       <Pagination className="m-3">
         <PaginationContent>
@@ -26,4 +30,6 @@ import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, Pagi
       </Pagination>
     )
   }
+
+  export default PageComponent;
   

@@ -1,11 +1,19 @@
 import './App.css';
 import HomePage from './MyComponents/HomePage';
+import UpdateContact from './MyComponents/UpdateContact';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BookmarkProvider } from './Context/BookmarkContext';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <HomePage/>
-    </>
+    <BookmarkProvider>
+      <Router>
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/update' element={<UpdateContact/>} />
+        </Routes>
+      </Router>
+    </BookmarkProvider>
   )
 }
 
