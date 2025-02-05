@@ -3,6 +3,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import router from './routes/router';
 import { error_request_handler, route_not_found } from './controllers/handlers';
+import { db } from './services/fileService';
 
 const application = express();
 
@@ -17,4 +18,13 @@ application.use('/', router);
 application.use(route_not_found);
 application.use(error_request_handler);
 
-application.listen(3000, ()=> console.log(`Application is listening on 3000`));
+
+db.then(()=>{
+    application.listen(3000, ()=> 
+
+        console.log(`Application is listening on 3000`)
+    );
+
+}).catch((err)=>{
+console.log(err, 'go db connection error')
+})
