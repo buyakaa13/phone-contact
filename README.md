@@ -41,4 +41,4 @@ React for the frontend, Express for the backend, and Node filesystem for data pe
 * Use Express API endpoints to handle CRUD operations and interact with the filesystem.
 * Validate user inputs on both the frontend and backend to ensure data integrity. (Use [`Zod`](https://www.npmjs.com/package/zod))
 
-<img src="images/ss.png" alt="Screenshot" width="300" />
+<img src="./ss.png" alt="Screenshot" width="500" />
