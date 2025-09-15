@@ -41,23 +41,4 @@ React for the frontend, Express for the backend, and Node filesystem for data pe
 * Use Express API endpoints to handle CRUD operations and interact with the filesystem.
 * Validate user inputs on both the frontend and backend to ensure data integrity. (Use [`Zod`](https://www.npmjs.com/package/zod))
 
-## Evaluation Criteria
-* Does the application meet all specified requirements?
-* Are all features implemented and working correctly?
-* Is the code well-organized and easy to understand?
-* Are best practices followed for both React and Express?
-* Is the user interface intuitive and visually appealing?
-
-### Notes
-* A commit per feature is required, with a meaningful commit message.
-* A daily push is required to track your code progress and measure your performance.
-* You may only use and submit code to the repository provided by `maharishi-university` organization, do not submit code to your personal repository.
-* Students are expected to be available on MS-Teams to receive calls and check on their progress every day from 10:00 AM to 12:00 PM, and 2:00 PM to 3:00 PM during the project.
-
-## Need assistance?
-Feel free to contact me any day between 10:00 AM to 12:00 PM, and 2:00 PM to 5:00 PM, except for Sunday. I’m available to assist all teams with all kinds of requests (system design, backend, frontend, fixing code bugs.. etc). The project is a learning experience and I want everyone to finish the project successfully and meet the course learning outcomes.
-
-## Final Evaluation 
-* The submission deadline is on Wednesday at 9:00 PM. Students are expected to submit a screen recorded video that demonstrate the project features, and how to use the system. Do not show or explain your code patterns. Please send me the video URL via a message on Teams. I might invite you to a meeting after the final exam to discuss your project if needed.
-* It's advised that you submit your code on Wednesday morning, and prepare for your final exam.
-* Your final exam will be on Thursday, from 10:00 AM to 12:00 PM, in the M115 classroom. Time management is key, finish your project early to allow time for exam preparation.
+<img src="images/ss.png" alt="Screenshot" width="300" />
