@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/n9JPUTT8)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17968635)
-## CS472 Final Project January 2025: Contacts Manager Application
+## Final Project January 2025: Contacts Manager Application
 Description: Create a contacts management app where users can store and manage their contacts. Use the Node filesystem to store contact details (name, phone, email, etc.) in JSON file.
 
 ## Features:
@@ -61,7 +61,3 @@ Feel free to contact me any day between 10:00 AM to 12:00 PM, and 2:00 PM to 5:0
 * The submission deadline is on Wednesday at 9:00 PM. Students are expected to submit a screen recorded video that demonstrate the project features, and how to use the system. Do not show or explain your code patterns. Please send me the video URL via a message on Teams. I might invite you to a meeting after the final exam to discuss your project if needed.
 * It's advised that you submit your code on Wednesday morning, and prepare for your final exam.
 * Your final exam will be on Thursday, from 10:00 AM to 12:00 PM, in the M115 classroom. Time management is key, finish your project early to allow time for exam preparation.
-
-Good luck, and happy coding!
-
-_Code Honor Submission Policy: Remember to respect the code honor submission policy. All written code must be original. You may not share any part of your code with other students. Code duplications will results to receiving NC for the final project. Presenting any code as one’s own work when it came from another source is plagiarism, which includes any matching patterns and code snippets, and will affect your grade. The use of AI is not permitted in this assignment. For more details, check the full course policies in the syllabus._
