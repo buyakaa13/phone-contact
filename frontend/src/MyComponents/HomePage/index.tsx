@@ -127,7 +127,7 @@ function HomePage(){
     };
 
     return (
-        <div className='container grid'>
+        <div className='container grid '>
             <div className='title font-poppins text-4xl font-bold'>
                 <h1 className='mb-3 text-left'>CONTACTS</h1>
             </div>

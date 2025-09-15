@@ -110,7 +110,7 @@ export const export_contacts_handler: RequestHandler = async (req, res, next)=>{
                 if(err)
                     console.error(`Error sending file: `, err);
                 else{
-                    console.log(`File sent successfully!`);
+                    // console.log(`File sent successfully!`);
                     if (!res.headersSent) {
                         res.status(200).json({ message: 'File sent successfully' });
                     }
